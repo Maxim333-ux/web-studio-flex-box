@@ -1,0 +1,183 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --logo-color: #000000;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --hero-backrount-color: #2f303a;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+p,
+h1,
+h2,
+h3,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sekshion {
+  outline: solid 3px green;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container {
+  outline: solid 1px red;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* hader */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: var(--accent-color);
+}
+.logo > span {
+  color: var(--logo-color);
+}
+
+.nav-link,
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+.contacts-link {
+  color: var(--primary-text-color);
+}
+.nav-link {
+  color: var(--primary-text-color);
+}
+/* Heroes */
+.hero {
+  background-color: var(--hero-backrount-color);
+}
+
+H1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: var(--logo-color);
+}
+.itemt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--secondary-text-color);
+}
+.title2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--logo-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--logo-color);
+}
+.sur-neme {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--secondary-text-color);
+}
+.navik {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer {
+  background-color: var(--hero-backrount-color);
+}
+footer .logo > span {
+  color: var(--background-color);
+}
+address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--background-color);
+}
+.logi {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--logo-color);
+}
+.lolo {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: var(--secondary-text-color);
+}
+
+.butoncik {
+  background: var(--background-color);
+  border-radius: 4px;
+}
+.butoncik:hover,
+.butoncik:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
