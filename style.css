@@ -52,10 +52,15 @@ li {
 /* hader */
 .container.header {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
-.container.header nav {
+.header nav {
   display: flex;
-  outline: solid red 2px;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -75,7 +80,7 @@ li {
 
 .contact-list {
   display: flex;
-  margin-left: auto;
+  margin-left: 344px;
 }
 .nav-item:not(:first-child),
 .contacts-item:not(:first-child) {
@@ -101,6 +106,8 @@ li {
 
 .nav-link {
   color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* Heroes */
 .hero {
@@ -127,6 +134,7 @@ H1 {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
+
 .title {
   font-weight: 700;
   font-size: 14px;
