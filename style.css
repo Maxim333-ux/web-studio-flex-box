@@ -50,6 +50,13 @@ li {
   margin-right: auto;
 }
 /* hader */
+.container.header {
+  display: flex;
+}
+.container.header nav {
+  display: flex;
+  outline: solid red 2px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -60,6 +67,15 @@ li {
 }
 .logo > span {
   color: var(--logo-color);
+}
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+.contact-list {
+  display: flex;
+  outline: solid 1px red;
+  margin-left: auto;
 }
 
 .nav-link,
@@ -126,6 +142,12 @@ H1 {
   line-height: 42px;
   text-align: center;
   color: var(--logo-color);
+}
+.what-we-do {
+  display: flex;
+}
+.what-we-do img {
+  width: 270px;
 }
 .name {
   font-weight: 500;
