@@ -72,12 +72,15 @@ li {
   display: flex;
   margin-left: 93px;
 }
+
 .contact-list {
   display: flex;
-  outline: solid 1px red;
   margin-left: auto;
 }
-
+.nav-item:not(:first-child),
+.contacts-item:not(:first-child) {
+  margin-left: 50px;
+}
 .nav-link,
 .contacts-link {
   font-weight: 500;
@@ -91,9 +94,11 @@ li {
 .contacts-link:focus {
   color: var(--accent-color);
 }
+
 .contacts-link {
   color: var(--primary-text-color);
 }
+
 .nav-link {
   color: var(--primary-text-color);
 }
