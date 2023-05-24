@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --background-color: #ffffff;
   --hero-backrount-color: #2f303a;
+  --portfolio-color: #f5f4fa;
 }
 html {
   box-sizing: border-box;
@@ -179,13 +180,16 @@ H1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+
   color: var(--logo-color);
 }
 .sur-neme {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+
   color: var(--secondary-text-color);
+  padding-top: 10px;
 }
 .navik {
   font-weight: 400;
@@ -211,6 +215,7 @@ address {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--logo-color);
+  margin-left: 24px;
 }
 .lolo {
   font-weight: 400;
@@ -218,16 +223,68 @@ address {
   line-height: 30px;
 
   color: var(--secondary-text-color);
+  margin-left: 24px;
 }
 
 .butoncik {
   background: var(--background-color);
+  padding: 6px 22px 6px 22px;
+  font-weight: 700;
   border-radius: 4px;
+  font-weight: 125px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-left: 8px;
 }
 .butoncik:hover,
 .butoncik:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
-.img-what-we-do {
+.what-we-doa {
+  display: flex;
+}
+.lol {
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+
+  padding-bottom: 30px;
+}
+.what-we-doa img {
+  margin-bottom: 30px;
+  height: 260px;
+  width: 270px;
+}
+.butonciki {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.gmail {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.logi {
+  margin-bottom: 4px;
+}
+.bobiki {
+  border: 1px solid #eeeeee;
+}
+.title2 {
+  padding-bottom: 50px;
+}
+address {
+margin-top: 20px;
+margin-bottom: 9px;
+}
+.kek{
+margin-bottom: 9px;
+ 
 }
