@@ -180,7 +180,8 @@ H1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
+margin-bottom: 10px;
+display: inline-block;
   color: var(--logo-color);
 }
 .sur-neme {
@@ -189,7 +190,7 @@ H1 {
   line-height: 19px;
 
   color: var(--secondary-text-color);
-  padding-top: 10px;
+ 
 }
 .navik {
   font-weight: 400;
@@ -227,7 +228,7 @@ address {
 }
 
 .butoncik {
-  background: var(--background-color);
+  background-color: #f5f4fa;
   padding: 6px 22px 6px 22px;
   font-weight: 700;
   border-radius: 4px;
@@ -236,19 +237,21 @@ address {
   line-height: 30px;
   letter-spacing: 0.06em;
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
   margin-left: 8px;
 }
 .butoncik:hover,
 .butoncik:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .what-we-doa {
   display: flex;
+  justify-content:space-between ;
 }
 .lol {
-  margin-right: 30px;
+ 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -261,15 +264,16 @@ address {
   height: 260px;
   width: 270px;
 }
-.butonciki {
+.butonciki, .daun:not(:first-child) {
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 .gmail {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
+flex-wrap: wrap;
+ margin: -15px;
+  
 }
 .logi {
   margin-bottom: 4px;
@@ -288,3 +292,9 @@ margin-bottom: 9px;
 margin-bottom: 9px;
  
 }
+.bobiki{
+  width: calc((100% - 6 * 15px) / 3);
+  margin: 15px;
+  padding-bottom: 20px;
+}
+
