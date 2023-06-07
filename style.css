@@ -1,300 +1,72 @@
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --logo-color: #000000;
-  --accent-color: #2196f3;
-  --background-color: #ffffff;
-  --hero-backrount-color: #2f303a;
-  --portfolio-color: #f5f4fa;
+.jj {
+  padding-bottom: 162px;
+  padding-top: 80px;
+background-image: url("./imagis/advanture/Rectangle\ 48.jpg");
+background-repeat: no-repeat;
+background-position: center;
+color:#fcf9ff ;
 }
-html {
-  box-sizing: border-box;
+.gg{
+  
+  width: 1100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+   
 }
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: Roboto;
+.ff{
+  font-family: 'Montserrat';
   font-style: normal;
-  color: var(--primary-text-color);
-  background-color: var(--background-color);
-  letter-spacing: 0.03em;
-}
-
-a {
-  text-decoration: none;
-}
-ul,
-p,
-h1,
-h2,
-h3,
-li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.sekshion {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* hader */
-.container.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-.header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-
-  color: var(--accent-color);
-}
-.logo > span {
-  color: var(--logo-color);
-}
-.nav-list {
-  display: flex;
-  margin-left: 93px;
-}
-
-.contact-list {
-  display: flex;
-  margin-left: 344px;
-}
-.nav-item:not(:first-child),
-.contacts-item:not(:first-child) {
-  margin-left: 50px;
-}
-.nav-link,
-.contacts-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent-color);
-}
-
-.contacts-link {
-  color: var(--primary-text-color);
-}
-
-.nav-link {
-  color: var(--primary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-/* Heroes */
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: var(--hero-backrount-color);
-}
-.hero {
-  text-align: center;
-}
-H1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  margin-bottom: 30px;
-
-  text-transform: uppercase;
-  color: var(--background-color);
-}
-.hero-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  padding: 10px 32px 10px 32px;
-  border-radius: 4px;
-  text-align: center;
-
-  color: var(--background-color);
-  background-color: var(--accent-color);
-}
-.adwantages.taxtik {
-  justify-content: space-between;
-}
-.adwantages {
-  display: flex;
-}
-.title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-
-  color: var(--logo-color);
-}
-.itemt {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--secondary-text-color);
-}
-.title2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  color: var(--logo-color);
-}
-.what-we-do {
-  display: flex;
-  justify-content: space-between;
-}
-.what-we-do img {
-  width: 370px;
-}
-.name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-margin-bottom: 10px;
-display: inline-block;
-  color: var(--logo-color);
-}
-.sur-neme {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: var(--secondary-text-color);
- 
-}
-.navik {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.6);
-}
-footer {
-  background-color: var(--hero-backrount-color);
-}
-footer .logo > span {
-  color: var(--background-color);
-}
-address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--background-color);
-}
-.logi {
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 36px;
-  letter-spacing: 0.06em;
-  color: var(--logo-color);
-  margin-left: 24px;
-}
-.lolo {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-
-  color: var(--secondary-text-color);
-  margin-left: 24px;
-}
-
-.butoncik {
-  background-color: #f5f4fa;
-  padding: 6px 22px 6px 22px;
-  font-weight: 700;
-  border-radius: 4px;
-  font-weight: 125px;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  border: none;
   
-  margin-left: 8px;
+  letter-spacing: 0.1px;
 }
-.butoncik:hover,
-.butoncik:focus {
-  background-color: var(--accent-color);
-  color: var(--background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ul{
+  list-style: none;
 }
-.what-we-doa {
-  display: flex;
-  justify-content:space-between ;
+.ll{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.2px;
 }
-.lol {
- 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  text-align: center;
+.kk{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
 
-  padding-bottom: 30px;
+
+text-align: center;
+letter-spacing: 0.2px;
 }
-.what-we-doa img {
-  margin-bottom: 30px;
-  height: 260px;
-  width: 270px;
+button{
+  font-family: 'Montserrat';
+font-style: normal;
+align-items: center;
+padding: 16px 82px 16px 82px;
+opacity: 1;
+box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+border-radius: 30px;
+flex: none;
+color:#fcf9ff;
+
+
+
+;}
+button:hover,
+button:focus{
+background: #FA4A0C;
+color:#fcf9ff;
 }
-.butonciki, .daun:not(:first-child) {
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-.gmail {
-  display: flex;
-flex-wrap: wrap;
- margin: -15px;
-  
-}
-.logi {
-  margin-bottom: 4px;
-}
-.bobiki {
-  border: 1px solid #eeeeee;
-}
-.title2 {
-  padding-bottom: 50px;
-}
-address {
-margin-top: 20px;
-margin-bottom: 9px;
-}
-.kek{
-margin-bottom: 9px;
- 
-}
-.bobiki{
-  width: calc((100% - 6 * 15px) / 3);
-  margin: 15px;
-  padding-bottom: 20px;
-}
+
+
 
