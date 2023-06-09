@@ -294,3 +294,19 @@
     margin: 15px;
     padding-bottom: 20px;
   }
+  .hero{
+    background-image: url(/imagis/advanture/png5.jpg);
+  }
+  .img-slot{
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    padding: 30px 100px  30px 100px ;
+  }
+  .img-slot-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 94px;
+    
+
+  }
